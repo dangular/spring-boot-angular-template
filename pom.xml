@@ -7,6 +7,7 @@
         <version>1.1.4.RELEASE</version>
     </parent>
 	<artifactId>spring-boot-angular-starter</artifactId>
+    <version>0.0.1</version>
 	<name>Spring Boot Angular Starter</name>
 	<description>Spring Boot Angular Starter</description>
 	<url>http://dangular.com/</url>

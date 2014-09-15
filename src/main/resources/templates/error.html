@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.thymeleaf.org">
+<head >
+    <meta charset="utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <meta name="description" content="Spring Boot Angular Starter"/>
+    <meta name="author" content=""/>
+    <title>Spring Boot Angular Starter - Error</title>
+
+    <link href="css/app-bootstrap.css" rel="stylesheet"/>
+    <link href="css/sticky-footer-navbar.css" rel="stylesheet"/>
+    <link href="css/app.css" rel="stylesheet"/>
+
+</head>
+
+<body >
+<!-- Begin page content -->
+<div class="container">
+    <div class="jumbotron">
+        <h1>Error!</h1>
+        <p>There was an error processing your request.</p>
+        <p>
+            <a class="btn btn-primary" href="/" role="button">Return to Home Page</a>
+        </p>
+    </div>
+    <div>
+        <table class="table table-condensed">
+            <thead>
+            <tr>
+                <th>Key</th>
+                <th>Value</th>
+            </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Error</td>
+                    <td th:text="${error}"></td>
+                </tr>
+                <tr>
+                    <td>Status</td>
+                    <td th:text="${status}"></td>
+                </tr>
+                <tr>
+                    <td>Path</td>
+                    <td th:text="${path}"></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
+
+<div class="footer">
+    <div class="container">
+        <p class="text-muted">&copy;2014. Spring Boot Angular Starter.</p>
+    </div>
+</div>
+
+</body>
+
+</html>
+
+

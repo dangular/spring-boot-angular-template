@@ -1,0 +1,17 @@
+{
+  "name": "spring-boot-angular-starter",
+  "version": "0.0.1",
+  "description": "Spring Boot Angular Starter",
+  "authors": [
+    "Dan Hayes <dhayes@chariotsolutions.com"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.2.0",
+    "angular": "~1.2.24",
+    "angular-bootstrap": "~0.11.0",
+    "angular-ui-router": "~0.2.10",
+    "angular-spinner": "~0.5.0",
+    "angular-growl": "~0.4.0",
+    "angular-sanitize": "~1.2.24"
+  }
+}

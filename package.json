@@ -1,0 +1,10 @@
+{
+  "name": "spring-boot-angular-starter",
+  "version": "0.0.1",
+  "description": "Spring Boot Angular Starter",
+  "author": "Dan Hayes",
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-less": "^0.11.4"
+  }
+}
